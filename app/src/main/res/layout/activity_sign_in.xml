@@ -103,10 +103,11 @@
         app:layout_constraintVertical_bias="0.298" />
 
     <Button
-        android:id="@+id/bSignIn"
+        android:id="@+id/btnSignIn"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:background="@drawable/buttoncolor"
+        android:onClick="onLogin"
         android:text="Sign In"
         android:textColor="@color/white"
         android:textStyle="bold"
